@@ -761,7 +761,7 @@ class BurpExtender(IBurpExtender, IScannerCheck,
         if self._no_of_errors < 2:
             full_msg = 'The Burp extension "Upload Scanner" just crashed. The details of the issue are at the bottom. \n' \
                        'Please let the maintainer of the extension know. No automatic reporting is present, but if you could \n' \
-                       'report the issue on github http://github.com/floyd-fuh/burp-UploadScanner \n' \
+                       'report the issue on github http://github.com/modzero/mod0BurpUploadScanner \n' \
                        'or send an Email to burpplugins' + 'QGZsb3lkLmNo'.decode("base64") + ' this would \n' \
                        'be appreciated. The details of the error below can also be found in the "Extender" tab.\n' \
                        'Do you want to open a github issue with the details below now? \n' \
